@@ -1,2 +1,5 @@
-<app-aluno></app-aluno>
-<app-curso></app-curso>
+<app-curso
+  *ngFor="let curso of cursos"
+  [url]="curso.url"
+  [description]="curso.description">
+</app-curso>

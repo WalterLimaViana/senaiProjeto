@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.curso {
+  margin: 25px 10px;
+  width: 300px;
+}
+
+.img-curso {
+  width: 100%;
+}

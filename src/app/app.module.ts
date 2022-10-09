@@ -6,9 +6,10 @@ import { CursoComponent } from "./cursos/curso/curso.component";
 import { CursosModule } from "./cursos/cursos.module";
 import { HttpClientModule } from "@angular/common/http";
 import { HeaderComponent } from './core/header/header.component';
+import { FooterComponent } from './core/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent],
   imports: [BrowserModule, AlunosModule, CursosModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
